@@ -1,0 +1,42 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+th, td {
+    padding: 5px 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ul.owl-carousel {
+  list-style-type: none;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.table-bordered > tbody > tr > td,
+.table-bordered {
+    border-bottom:0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-bordered > tbody > tr > th {
+    text-align: center;
+}

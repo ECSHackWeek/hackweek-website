@@ -1,0 +1,194 @@
+{{ if isset .Site.Params "features" }}
+{{ if .Site.Params.features.enable }}
+{{ if gt (len .Site.Data.features) 0 }}
+<section>
+    <div class="container" style="overflow: auto">
+
+      <h2><a id="schedule"></a>Schedule</h2>
+      <center><h4><i></i></h4></center>
+      <table class="table table-striped table-bordered table-hover">
+        <tr>
+          <th>Day</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Activity</th>
+          <th>Topics</th>
+          <th>Speaker</th>
+        </tr>
+        <tr>
+          <td><strong>Sunday</strong></td>
+          <td>9:00AM</td>
+          <td>12:00PM</td>
+          <td><i>(Optional)</i><br>Introduction to Data Science Tools #1</td>
+          <td>Using the shell/git</td>
+          <td>David Beck</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1:00PM</td>
+          <td>4:00PM</td>
+          <td><i>(Optional)</i><br>Introduction to Data Science Tools #2</td>
+          <td>Intro to Python/Jupyter/conda</td>
+          <td>Victor Hu</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>7:30PM</td>
+          <td>8:30PM</td>
+          <td>Hack Week Kickoff Event</td>
+          <td></td>
+          <td>HackWeek Organizers</td>
+        </tr>
+        <tr>
+          <td><strong>Monday</strong></td>
+          <td>8:30AM</td>
+          <td>9:00AM</td>
+          <td>Introductions</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>9:00AM</td>
+          <td>10:00AM</td>
+          <td>Special topic #1</td>
+          <td>Data wrangling with Pandas</td>
+          <td>Erica Eggleton</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>10:00AM</td>
+          <td>10:30AM</td>
+          <td>Coffee break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>10:30AM</td>
+          <td>11:30AM</td>
+          <td>Special topic #2</td>
+          <td>Interactive data visualization</td>
+          <td>Matt Murbach</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>11:30AM</td>
+          <td>12:00PM</td>
+          <td>Project introductions and quick pitches</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>12:00PM</td>
+          <td>1:30PM</td>
+          <td>Lunch break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1:30PM</td>
+          <td>2:30PM</td>
+          <td>Project discussion and team formation</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2:30PM</td>
+          <td>6:00PM*</td>
+          <td>Project hacking time</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Tuesday</strong></td>
+          <td>8:30AM</td>
+          <td>10:00AM</td>
+          <td>Special topic #3</td>
+          <td>Machine Learning</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>10:00AM</td>
+          <td>10:30AM</td>
+          <td>Coffee break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>10:30AM</td>
+          <td>11:30AM</td>
+          <td>Discussion</td>
+          <td>Creating community goals, metrics, and credit<br>for open electrochemical software and datasets</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>11:30AM</td>
+          <td>12:00PM</td>
+          <td>Project updates</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>12:00PM</td>
+          <td>1:30PM</td>
+          <td>Lunch break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1:30PM</td>
+          <td>6:00PM*</td>
+          <td>Project hacking time</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Wednesday</strong></td>
+          <td>8:30AM</td>
+          <td>12:00PM</td>
+          <td>Project hacking time</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>12:00PM</td>
+          <td>1:30PM</td>
+          <td>Lunch break</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1:30PM</td>
+          <td>5:00PM</td>
+          <td>Project hacking time</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>5:00PM</td>
+          <td>8:00PM</td>
+          <td>Project presentations and wrap up</td>
+          <td></td>
+          <td>All HackWeek attendees</td>
+        </tr>
+      </table>
+
+      <p>* rooms will stay open until 11:30pm for continued project hacking on Monday/Tuesday if desired</p>
+
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
