@@ -1,6 +1,6 @@
 +++
 title = "Installing Git and a Shell"
-date = "2018-01-31"
+date = "2018-01-22"
 author = "Matt Murbach"
 authorLink = "http://mattmurbach.com"
 tags = ["git"]
